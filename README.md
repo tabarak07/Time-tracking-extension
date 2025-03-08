@@ -141,3 +141,5 @@ dashboard/
 This project is licensed under the MIT License.
 
 ## OUTPUT -
+![Image](https://github.com/user-attachments/assets/6a8e8517-e9bb-4953-9db7-ab23e970566a) 
+https://github.com/user-attachments/assets/abab89f5-0a1d-4fad-a1e8-43bee3976466 
