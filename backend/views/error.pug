@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .container.mt-4
+    h1.text-danger #{message || 'Oops! Something went wrong.'}
+    h2.text-secondary #{error.status || 'Error 500'}
+    if error.stack && process.env.NODE_ENV !== 'production'
+      pre.bg-light.p-3 #{error.stack}
+    a.btn.btn-secondary(href='/') Go Back to Home

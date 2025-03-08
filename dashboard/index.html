@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+  <title>Productivity Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Productivity Analytics</h1>
+  <nav>
+    <button id="dailyView">Daily</button>
+    <button id="weeklyView">Weekly</button>
+    <button id="monthlyView">Monthly</button>
+  </nav>
+  <canvas id="chart" width="400" height="200"></canvas>
+  <div id="loading">Loading...</div>
+  <div id="error" style="color: red; display: none;">Error fetching data. Please try again.</div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #45a049;
+}
+
+canvas {
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+#loading {
+  margin-top: 20px;
+}
+
+#error {
+  margin-top: 20px;
+  color: red;
+}

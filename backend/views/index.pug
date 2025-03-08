@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .container
+    h1.text-primary= title
+    p Welcome to #{title}, your tool to monitor time spent and improve productivity across activities.
+    a.btn.btn-primary(href='/analytics', aria-label='Go to Analytics Page') View Analytics
+  footer
+    p &copy; 2025 Productivity Tracker. All rights reserved.
